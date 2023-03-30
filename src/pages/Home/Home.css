@@ -1,0 +1,30 @@
+.tower-bg{
+    background-image: url(../../images/bg_35.png);
+    font-family: 'Uncial Antiqua';
+    overflow-y: auto;
+}
+
+.floating { 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
+    
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+.div-shape {
+
+    clip-path: polygon(0 0, 93% 0, 100% 25%, 100% 100%, 5% 100%, 0 75%);
+    }
+
+.div-font{
+    font-family:'IBM Plex Mono';
+   
+}
